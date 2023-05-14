@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="icon" type="img/svg" href="images/logo-logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="overlay"></div>
+        <header id="header" class="header">
+            <div class="header__info _container">
+      
+              <ul class="header__info-contacts">
+                <li class="header__info-item">
+                  <a class="header_phone-kiyvstar" href="tel:+380975051017">
+                    <span>
+                      <img src="images/icons/kyivstar_icon-25x25.png" alt="">
+                    </span>
+                    +38(097)-505-10-17</a>
+                  <a class="header_phone-lifesell" href="tel:+380631064905">
+                    <span>
+                      <img src="images/icons/life_icon-25x25.png" alt="">
+                    </span>
+                    +38(063)-106-49-05</a>
+                </li>
+                <li class="header__info-item">
+                  <a class="header_e-mail" href=" #" ">
+                  <i class=" fa fa-envelope-open" aria-hidden="true"></i>info@sanauto.kiev.ua</a>
+                </li>
+                <li class=" header__info-item">
+                  <a class="header__addres" href="#">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    г. Киев, ул. Тепловозная 18 Г (Дарницкий р-н.)</a>
+                </li>
+              </ul>
+      
+              <ul class="header__info-social">
+                <li class="sociall">
+                  <a class="social__fb-icon" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="sociall">
+                  <a class="social__instagram-icon" href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+      
+              </ul>
+              <div class="languages">
+      
+                <div class="catalog__item-color">
+      
+                  <select name="" id="catalog__color">
+      
+                    <option data-path="" value="">ua</option>
+                    <option data-path="" value="">ru</option>
+      
+                  </select>
+                </div>
+              </div>
+            </div>
+          </header>
+        <section class="header__nav">
+            <div class="header__nav-inner _container">
+                <div class="header__nav-content">
+
+                    <a class="header__logo" href="index.html">
+                        <img src="/images/logo-for header.png" alt="logo">
+                    </a>
+                    <div class="header__burger">
+                        <button class="burger" aria-label="open menu">
+                          <span></span>
+                        </button>
+                      </div>
+                    <nav class="nav header__nav-bar">
+                        <ul class="nav__list">
+                            <li class="nav__item mobile-logo"> <a class="mobile__logo" href="index.html">
+                                    <img src="../sanavto/images/logo-for header.png" alt="logo">
+                                </a>
+                            </li>
+                            <li class="nav__item"><a class="nav__it underline-one nav__it--active"
+                                    href="index.html">Главная</a></li>
+
+                            <li class="nav__item">
+                                <a class="nav__it underline-one" href="services.html">
+                                    Услуги</a>
+                                <a class="nav__link nav__link--drop" href="#">
+                                    <i class="nav__link--drop fa fa-angle-down"></i>
+                                </a>
+                                <ul class="nav__list  dropdown-list nav__list--dropdown">
+                                    <li class="dropdown-list__item mobile-back">
+                                        <a href="" class="dropdown-list__link mobile-back__link">menu</a>
+                                    </li>
+                                    <li class="dropdown-list__item">
+                                        <h3 class="dropdown-submenu__title">Услуги</h3>
+                                    </li>
+                                    <li class="dropdown-list__item">
+                                        <a class="dropdown-list__link" href="services-1.html">Закачка газа в
+                                            амортизаторы</a>
+                                    </li>
+                                    <li class="dropdown-list__item">
+                                        <a class="dropdown-list__link" href="services-2.html">Ремонт амортизаторов</a>
+                                    </li>
+                                    <li class="dropdown-list__item">
+                                        <a class="dropdown-list__link" href="services-3.html">Ремонт амортизаторов с EDC
+                                            и FlexRaid</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav__item"><a class="nav__link  underline-one" href="about.html">О компании</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a class="nav__it underline-one" href="car-model.html">
+                                    Марки авто</a>
+                                <a class="nav__link nav__link--drop" href="#">
+                                    <i class="nav__link--drop fa fa-angle-down"></i>
+                                </a>
+
+                                <ul class="nav__list  dropdown-list dropdown-submenu nav__list--dropdown">
+                                    <li class="dropdown-list__item mobile-back">
+                                        <a href="" class="dropdown-list__link mobile-back__link">menu</a>
+                                    </li>
+                                    <li class="dropdown-submenu__item">
+                                        <h3 class="dropdown-submenu__title">Марки авто</h3>
+
+                                    </li>
+                                    <li class="dropdown-submenu__item">
+
+                                        <ul class="dropdown-submenu__list">
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelAudi.html">AUDI</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link" href="car-modelBMW.html">BMW</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelCadillac.html">CADILLAC</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelChevrolet.html">CHEVROLET</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelChrysler.html">CHRYSLER</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelCITROEN.html">CITROEN</a>
+                                            </li>
+
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelDODGE.html">DODGE</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelFiat.html">FIAT</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelFord.html">FORD</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelHONDA.html">HONDA</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelLincoln.html">LINCOLN</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelHyundai.html">HYUNDAI</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelInfiniti.html">INFINITI</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelJeep.html">JEEP</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link" href="car-modelKia.html">KIA</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelLexus.html">LEXUS</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelMazda.html">MAZDA</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelMercedes-Benz.html">MERCEDES<br>-BENZ</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelMitsubishi.html">MITSUBISHI</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelNissan.html">NISSAN</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelOpel.html">OPEL</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelPeugeot.html">PEUGEOT</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelSeat.html">SEAT</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelLandRover.html">LAND-ROVER</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelRenault.html">RENAULT</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelSkoda.html">SKODA</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelSubaru.html">SUBARU</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelSuzuki.html">SUZUKI</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelToyota.html">TOYOTA</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelVolkswagen.html">VOLKSWAGEN</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelVolvo.html">VOLVO</a>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item">
+                                                <a class="dropdown-submenu__list-link"
+                                                    href="car-modelDaewoo.html">DAEWOO</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav__item"><a class="nav__link underline-one" href="reviews.html">Отзывы</a></li>
+
+                            <li class="nav__item"><a class="nav__link underline-one" href="page__posts.html">Статьи</a>
+                            </li>
+
+                            <li class="nav__item"><a class="nav__link underline-one"
+                                    href="page__contacts.html">Контакты</a></li>
+                        </ul>
+
+                    </nav>
+
+                    <!-- data-da=".header__info-contacts,1200,1" -->
+                    <a class="header__cta popup-link" id="myBtn" href="#popup">Оставить
+                        заявку</a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="header__banner">
+            <img class=" header-image" src="images/slider-bg1-2_new2.jpg" alt="servise-photo">
+            <div class="header__banner-content _container">
+
+                <h1 class="page__posts--title title">Статьи</h1>
+                <div id="breadcrumb"></div>
+                <ul id="navigation_links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a class="active" href="page__posts.html">Статьи</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="page__posts indent _container">
+            <aside class="aside_articles-titles">
+                <h5 class="aside_articles-title">Свежие записи</h5>
+                <ul class="aside_articles-items">
+                    <li class="aside_articles-item">
+                        <a class="aside_articles-link" href="post__article1.html">
+                            Какие амортизаторы лучше: газовые или масляные
+                        </a>
+                    </li>
+                    <li class="aside_articles-item">
+                        <a  class="aside_articles-link" href="post__article2.html">
+                            Стучит стойка амортизатора – 8 причин
+                        </a>
+                    </li>
+                    <li class="aside_articles-item">
+                        <a  class="aside_articles-link" href="post__article3.html">
+                            Куда уходит газ из амортизаторов? Причины и последствия.
+                        </a>
+                    </li>
+                    <li class="aside_articles-item">
+                        <a  class="aside_articles-link" href="post__article4.html">
+                            Виды поломок амортизаторов
+                        </a>
+                    </li>
+                    <li class="aside_articles-item">
+                        <a  class="aside_articles-link" href="post__article5.html">
+                            Что такое неправильный ремонт амортизаторов?
+                        </a>
+                    </li>
+                    <li class="aside_articles-item">
+                        <a  class="aside_articles-link" href="post__article6.html">
+                            Как сделать правильный ремонт амортизаторов:
+                            разновидности и применение
+                        </a>
+                    </li>
+                    <li class="aside_articles-item">
+                        <a  class="aside_articles-link" href="post__article7.html">
+                            Замена или ремонт двухтрубных амортизаторов:
+                            виды и способы
+                        </a>
+                    </li>
+
+                </ul>
+
+
+
+            </aside>
+            <div class="page__posts-main post__article">
+                <h2 class="post__article-title">Куда уходит газ из амортизаторов? Причины и последствия.</h2>
+                <div class="post__article-img">
+                    <img src="images/cars-models-photoes/Screenshot_192.jpg" alt="order-photo1">
+                </div>
+
+                <div class="post__article-lables">
+                    <i class="fa fa-user"></i><span>admin</span>
+                    <i class="fa fa-bookmark"></i><span>Без рубрики</span>
+                </div>
+                <div class="post__article_content">
+                    <p class="post__article_text">
+                        Считается, что амортизаторы, наполненные газом, являются весьма хорошими и качественными. 
+                        Стоит добавить, что молекулы газа в разы меньше, нежели молекулы масла.
+                    </p>
+                    <p class="post__article_text">
+                        Это приводит к тому, что в течение двух—пяти лет(в зависимости от производителя) 
+                        газ постепенно выходит через сальник (запорный клапан). Как следствие, передние и
+                         задние стойки работают на половину своих возможностей. 
+                         <a class="link" href="services-1.html"> Восстановление нормы давления газа 
+                        </a>
+                        
+                         обеспечивает 100% работоспособность амортизаторов в любых дорожных условиях.
+                        Как следствие существенно повышает комфорт и безопасность.
+                    </p> 
+                    <p class="post__article_text">
+                        Такая проблема особенно актуальна для тех автомобилей, которые долго не эксплуатировались. 
+                        Хороший пример – машины, выставленные на площадках по продаже автомобилей в Европе и Америке. 
+                        Что и говорить, у 90% автомобилей, бывших в употреблении, во время диагностики будут 
+                        обнаружены неправильные параметры работы передних и задних стоек. Так случается, 
+                        если автомобили будут доставлять новым владельцам не своим ходом, а по железной дороге, 
+                        автовозами и проверить работоспособность передних и задних стоек при движении не
+                         предоставляется возможным. 
+                    </p>
+                    <div class="post__article-img">
+                        <img src="images/cars-models-photoes/Screenshot_193.png" alt="order-photo1">
+                    </div>
+                    <p class="post__article_text">
+                        Вытек газа может быть диагностирован в «свежих» машинах, подвеска в которых не гремит и не стучит. 
+                        За то время, пока автомобиль не используется, газ улетучивается, а амортизаторы теряют 
+                        былую упругость. Масло, которое там осталось, не сможет гасить колебания так, как надо. 
+                        По этой причине сразу после утечки газа, появляются подтеки масла и стойка начинает 
+                        медленно «умирать». В результате если не обнаружить проблему на начальных этапах, 
+                        может понадобится замена узла, которая стоит в разы дороже ремонта.
+                    </p>
+                    <p class="post__article_text">
+                        Процесс выхода газа является достаточно медленным, поэтому у водителей есть время на то, 
+                        чтобы приспособиться к новому стилю движения. Работа подвески в разы ухудшается, и
+                         водители не осознают, что их машина становится не такой безопасной, как раньше.
+                    </p>
+                    <h3 class="post__article_title">Признаки отсутствия газа в стойках</h3>
+                    <p class="post__article_text">
+                        Когда амортизаторы полностью износились, тормозной путь сильно удлиняется. В 
+                        то же самое время водитель может заметить, что скорость безопасного прохождения 
+                        поворотов существенно сократилась. Еще одним признаком того, что с амортизаторами 
+                        не все в порядке, является высокая вероятность заноса во время движения по 
+                        мокрому дорожному полотну. Амортизаторы, которые нуждаются в ремонте или 
+                        замене, негативно сказываются на комфортности и безопасности движения.
+                    </p>
+                    <h3 class="post__article_title">Последствия несвоевременного ремонта или замены амортизаторов</h3>
+                    <p class="post__article_text">
+                        Неисправность и изношенность амортизаторов, а также небольшой дисбаланс колеса, 
+                        способствует сильному и неравномерному износу шин и деталей подвески. 
+                        Это также негативно отражается на состоянии и функционировании тормозных механизмов. 
+                        Если автомобиль используется нечасто, водитель может даже не подозревать о том, 
+                        что он, садясь за руль, рискует своей безопасностью. 
+                        Мы советуем регулярно пригонять машину к специалистам для диагностики и 
+                        технического обслуживания. В противном случае несоблюдение таких простых 
+                        рекомендаций может привести к плачевным последствиям. 
+                    </p>
+
+
+
+
+
+
+                   
+                   
+        </section>
+        <section class="footer">
+            <div class="footer__content _container">
+                <a class="header__logo footer__logo" href="index.html">
+                    <img src="/images/logo-for-footer.png" alt="logo">
+                </a>
+                <div class="footer__columns">
+                    <div class="footer__column ">
+                        <h4 class="footer__title">Доверие</h4>
+                        <p class=" footer__text">Более 5 лет опыта в области
+                            качественного ремонта и восстановлении газомаслянных
+                            двухтрубных амортизаторов по современной технологии ремонта.</p>
+                    </div>
+                    <div class="footer__column footer__navigation">
+                        <h4 class="footer__title">Навигация</h4>
+                        <ul class="footer__navigation-items">
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="index.html">Автосервис</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="about.html">О нас</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="reviews.html">Отзывы</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="page__contacts.html">Контакты</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="services.html">Услуги</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="car-model.html">Марки авто</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="page__posts.html">Статьи</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="footer__column footer__contacts">
+                        <h4 class="footer__title">Наши контакты</h4>
+                        <ul class="footer__contacts-items">
+                            <li class="footer__contacts-item">
+                                <a class="header__addres connection" href="#">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    г. Киев, <br>ул. Тепловозная 18 Г <br>(Дарницкий р-н.)</a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_phone-kiyvstar connection" href="tel:+380975051017">
+                                    <span>
+                                        <img src="images/icons/kyivstar_icon-25x25.png" alt="">
+                                    </span>
+                                    +38(097)-505-10-17</a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_phone-lifesell connection" href="tel:+380631064905">
+                                    <span>
+                                        <img src="images/icons/life_icon-25x25.png" alt="">
+                                    </span>
+                                    +38(063)-106-49-05
+                                </a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_phone-viber connection" href="viber://chat?number=%2B380975051017">
+                                    <span>
+                                        <img src="images/icons/viber-25x25.png" alt="">
+                                    </span>
+
+                                    viber
+                                </a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_e-mail connection" href=" #" ">
+              <i class=" fa fa-envelope-open" aria-hidden="true"></i>info@sanauto.kiev.ua</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="footer__column ">
+                        <div class="footer__schedule">
+                            <h4 class="footer__title">Режим работы</h4>
+                            <ul class="days">
+                                <li class="days-name "><span>Пн — Пт:</span>09:00 — 19:00</li>
+                                <li class="days-name"><span>Суббота:</span>09:00 — 17:00</li>
+                                <li class="days-name"><span>Воскресенье:</span>Выходной</li>
+                            </ul>
+                        </div>
+                        <div class="footer__social">
+                            <h4 class="footer__social-title">Мы в соцсетях</h4>
+                            <ul class="header__info-social footer-social-items">
+                                <li class="sociall">
+                                    <a class="social__fb-icon" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="sociall">
+                                    <a class="social__instagram-icon" href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__bottom-text _container">
+                    © Автосервис "Sanavto Master" 2000 - 2022 все права защищены!
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <div id="popup" class="popup">
+
+            <div class="popup__body">
+              <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">Оставить
+                  заявку</div>
+                <form class="questions__form-card" method="post">
+                  <div class="top-wrapper">
+                      <div class="input">
+                          <input type="text" id="name" placeholder="Имя" />
+                      </div>
+                      <div class="input">
+                          <input type="tel" id="tel" placeholder="Номер телефона" />
+                      </div>
+      
+                  </div>
+                  <div class="bottom-wrapper popup-btn">
+      
+      
+                      <button class="submit__btn" id="submit__Btn">
+                        Перезвоните мне
+                      </button>
+                  </div>
+              </form>
+              </div>
+            </div>
+      
+          </div>
+      
+
+
+        <div class="scroll-up _container" id="scrollToTop" onclick="goUp();">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+    </div>
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/dynamic.adapt.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+</body>
+
+</html>

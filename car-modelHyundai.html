@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="icon" type="img/svg" href="images/logo-logo.png">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="overlay"></div>
+        <header id="header" class="header">
+            <div class="header__info _container">
+      
+              <ul class="header__info-contacts">
+                <li class="header__info-item">
+                  <a class="header_phone-kiyvstar" href="tel:+380975051017">
+                    <span>
+                      <img src="images/icons/kyivstar_icon-25x25.png" alt="">
+                    </span>
+                    +38(097)-505-10-17</a>
+                  <a class="header_phone-lifesell" href="tel:+380631064905">
+                    <span>
+                      <img src="images/icons/life_icon-25x25.png" alt="">
+                    </span>
+                    +38(063)-106-49-05</a>
+                </li>
+                <li class="header__info-item">
+                  <a class="header_e-mail" href=" #" ">
+                  <i class=" fa fa-envelope-open" aria-hidden="true"></i>info@sanauto.kiev.ua</a>
+                </li>
+                <li class=" header__info-item">
+                  <a class="header__addres" href="#">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    г. Киев, ул. Тепловозная 18 Г (Дарницкий р-н.)</a>
+                </li>
+              </ul>
+      
+              <ul class="header__info-social">
+                <li class="sociall">
+                  <a class="social__fb-icon" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="sociall">
+                  <a class="social__instagram-icon" href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+      
+              </ul>
+              <div class="languages">
+      
+                <div class="catalog__item-color">
+      
+                  <select name="" id="catalog__color">
+      
+                    <option data-path="" value="">ua</option>
+                    <option data-path="" value="">ru</option>
+      
+                  </select>
+                </div>
+              </div>
+            </div>
+          </header>
+        <section class="header__nav">
+            <div class="header__nav-inner">
+              <div class="header__nav-content _container">
+    
+                <a class="header__logo" href="#">
+                  <img src="images/logo-for header.png" alt="logo">
+                </a>
+                <div class="header__burger">
+                  <button class="burger" aria-label="open menu">
+                    <span></span>
+                  </button>
+                </div>
+    
+                <nav class="nav header__nav-bar">
+                  <ul class="nav__list">
+                    <li class="nav__item mobile-logo"> <a class="mobile__logo" href="#">
+                        <img src=".images/logo-for header.png" alt="logo">
+                      </a>
+                    </li>
+                    <li class="nav__item"><a class="nav__it underline-one nav__it--active" href="index.html">Главная</a>
+                    </li>
+    
+                    <li class="nav__item">
+                      <div class="nav__link--wrapper">
+                         <a class="nav__it underline-one" href="services.html">
+                        Услуги
+    
+                      </a>
+                      <a class="nav__link nav__link--drop" href="#">
+                        <i class="nav__link--drop fa fa-angle-down"></i>
+                      </a>
+                      </div>
+                      <ul class="nav__list  dropdown-list nav__list--dropdown">
+                      
+                        <li class="dropdown-list__item">
+                          <a class="dropdown-list__link" href="services-1.html">Закачка газа в амортизаторы</a>
+                        </li>
+                        <li class="dropdown-list__item">
+                          <a class="dropdown-list__link" href="services-2.html">Ремонт амортизаторов</a>
+                        </li>
+                        <li class="dropdown-list__item">
+                          <a class="dropdown-list__link" href="services-3.html">Ремонт амортизаторов с EDC и FlexRaid</a>
+                        </li>
+                      </ul>
+                    </li>
+    
+                    <li class="nav__item"><a class="nav__link  underline-one" href="about.html">О компании</a></li>
+    
+                    <li class="nav__item">
+                      <div class="nav__link--wrapper">
+                        <a class="nav__it underline-one" href="car-model.html">
+                          Марки авто</a>
+                      <a class="nav__link nav__link--drop" href="#">
+                        <i class="nav__link--drop fa fa-angle-down"></i>
+                      </a>
+                      </div>
+                      <ul class="nav__list  dropdown-list dropdown-submenu nav__list--dropdown">
+                        <li class="dropdown-submenu__item">
+                          <ul class="dropdown-submenu__list">
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelAudi.html">AUDI</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelBMW.html">BMW</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelCadillac.html">CADILLAC</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelChevrolet.html">CHEVROLET</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelChrysler.html">CHRYSLER</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelCITROEN.html">CITROEN</a>
+                            </li>
+    
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelDODGE.html">DODGE</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelFiat.html">FIAT</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelFord.html">FORD</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelHONDA.html">HONDA</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelLincoln.html">LINCOLN</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelHyundai.html">HYUNDAI</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelInfiniti.html">INFINITI</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelJeep.html">JEEP</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelKia.html">KIA</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelLexus.html">LEXUS</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelMazda.html">MAZDA</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link"
+                                href="car-modelMercedes-Benz.html">MERCEDES<br>-BENZ</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelMitsubishi.html">MITSUBISHI</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelNissan.html">NISSAN</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelOpel.html">OPEL</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelPeugeot.html">PEUGEOT</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelSeat.html">SEAT</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelLandRover.html">LAND-ROVER</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelRenault.html">RENAULT</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelSkoda.html">SKODA</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelSubaru.html">SUBARU</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelSuzuki.html">SUZUKI</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelToyota.html">TOYOTA</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelVolkswagen.html">VOLKSWAGEN</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelVolvo.html">VOLVO</a>
+                            </li>
+                            <li class="dropdown-submenu__list-item">
+                              <a class="dropdown-submenu__list-link" href="car-modelDaewoo.html">DAEWOO</a>
+                            </li>
+                          </ul> 
+                        </li>
+                      </ul>
+                    </li>
+                   
+                    <li class="nav__item"><a class="nav__link underline-one" href="reviews.html">Отзывы</a></li>
+    
+                    <li class="nav__item"><a class="nav__link underline-one" href="page__posts.html">Статьи</a></li>
+    
+                    <li class="nav__item"><a class="nav__link underline-one" href="page__contacts.html">Контакты</a></li>
+                  </ul>
+    
+                </nav>
+    
+                <!-- data-da=".header__info-contacts,1200,1" -->
+                <a class="header__cta popup-link" id="myBtn" href="#popup">Оставить
+                  заявку</a>
+              </div>
+            </div>
+    
+          </section>
+        <section class="services__banner">
+            <img class=" header-image"
+                src="images/carsLogo/1656585321_54-phonoteka-org-p-oboi-na-rabochii-stol-audi-59.jpg"
+                alt="servise-photo">
+            <div class="services__banner-content _container">
+                <div class="services__title title-model">Ремонт амортизаторов Hyundai (Хундай)</div>
+                <img class="cars-logo logo--100px " src="images/carsLogo/hyundai.png" alt="">
+                <div id="breadcrumb "></div>
+                <ul id="navigation_links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="car-model.html">Марки авто</a></li>
+                    <li><a class="active" href="car-modelHyundai.html">Ремонт амортизаторов Hyundai (Хундай)</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="car__model indent _container">
+            <h2 class="car__model-title">Ремонт двухтрубных амортизаторов и стоек на Hyundai (Хундай) </h2>
+            <div class="sistems">
+                <div class="sistems__item">
+                    <img class="sistems_img" src="images/cars-models-photoes/Screenshot_157.png" alt="">
+                    <div class="sistems__item-content">
+                        <p class="sistems__item-content--top">Каждый владелец автомобиля <strong>Hyundai и других
+                                марок</strong>,
+                            периодически проводят осмотр и диагностику ходовой части авто.</p>
+                        <p class="sistems__item-content--top">Чаще всего автовладельцы обращаются к нам в<span><strong>
+                                    SANAVTO MASTER </strong></span> на <strong> Позняках </strong>, с
+                            проблемой неправильной работы передних или задних амортизаторов.</p>
+                    </div>
+                </div>
+                <p class="car__model-text">
+                    Данный элемент подвески не только гасит колебания, но и играет важную роль в устойчивости и
+                    торможении автомобиля.
+                </p>
+                <p class="car__model-text">
+                    Более того, он также влияет на сцепление колес с дорожным полотном. Вовремя обратившись
+                    к наш автосервис по ремонту двухтрубных, газо-масляных амортизаторов — <strong> это ощутимая
+                        экономия времени и денег.</strong>
+
+                </p>
+            </div>
+
+        </section>
+
+        <section class="services__price _container">
+
+            <h3 class="services__injection-subtitle">Стоимость ремонта амортизаторов Hyundai
+            </h3>
+            <table>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Цена (грн)</th>
+                </tr>
+                <tr>
+                    <td>Реставрация переднего двухтрубного амортизатора Hyundai</td>
+                    <td>300-400 грн.</td>
+                </tr>
+                <tr>
+                    <td>Реставрация заднего двухтрубного амортизатора Hyundai</td>
+                    <td>300-400 грн.</td>
+                </tr>
+                <tr>
+                    <td>Закачка газа в амортизатор Hyundai</td>
+                    <td>до 300 грн.</td>
+                </tr>
+                <tr>
+                    <td>Реставрация двухтрубного газо-масляного амортизатора с электро-регулировкой</td>
+                    <td>400 — 800 грн.</td>
+                </tr>
+            </table>
+
+        </section>
+        <section class="services__price _container">
+            <h3 class="services__injection-subtitle">Дополнительные услуги</h3>
+            <table>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Цена (грн)</th>
+                </tr>
+                <tr>
+                    <td>Снятие-установка переднего амортизатора</td>
+                    <td>от 350 грн</td>
+                </tr>
+                <tr>
+                    <td>Снятие-установка заднего амортизатора</td>
+                    <td>от 200 грн</td>
+                </tr>
+            </table>
+            <p class="car__model-text">
+                Ремонт двухтрубных амортизаторов на Линкольн в
+                Киеве на Левом берегу осуществляется специалистами нашей мастерской.
+            </p>
+
+        </section>
+
+
+
+
+
+        <section class="car__model indent _container">
+            <h2 class="car__model-subtitle">Ремонт передних и задних стоек Хюндай на Левом берегу
+            </h2>
+
+            <p class="car__model-text">
+                Если вы заметили, что автомобиль раскачивается двигаясь по прямой, а со стороны передних и задних колес
+                стали исходить неприятные стуки, на корпусе
+                амортизатора видны масляные потеки, мы рекомендуем не затягивать и обратиться за квалифицированной
+                помощью.
+            </p>
+
+            <p class="car__model-text">
+                Своевременная диагностика и <a class="link" href="services-2.html"> восстановление амортизаторов
+                </a> — <strong>залог комфорта, безопасности</strong> водителя и пассажиров.
+            </p>
+
+            <div class="car__model-block">
+
+                <div class="car__model-content like">
+                    <h3 class="services__model-block--subtitle"> Обратившись к нам в мастерскую на Дарнице, вы можете
+                        быть уверены в следующем:</h3>
+                    <p class="car__model-text">
+                        <i class="fa fa-thumbs-up"></i>
+                        ремонт амортизаторов в Киеве может быть качественным и недорогим
+                    </p>
+                    <p class="car__model-text">
+                        <i class="fa fa-thumbs-up"></i>
+                        по окончанию работ предоставляем гарантию
+                    </p>
+                    <p class="car__model-text">
+                        <i class="fa fa-thumbs-up"></i>
+                        восстановительные работы двух стоек не продлятся дольше 3-х часов
+                    </p>
+                    <p class="car__model-text">
+                        <i class="fa fa-thumbs-up"></i>
+                        ремонтируют амортизаторы специалисты с 5-ти летним опытом
+                    </p>
+                </div>
+                <img class="car__model-img" src="images/cars-models-photoes/Screenshot_132.png" alt="">
+            </div>
+
+            <p class="car__model-text">
+                Своевременный ремонт газо-масляных, двухтрубных амортизаторов —
+                это лучший выбор для владельцев всех марок и моделей авто.
+            </p>
+            <p class="car__model-text">
+                <span>ОБРАЩАЙТЕСЬ</span> – адрес и время работы мастерской указаны на сайте.
+            </p>
+
+
+            <div class="services__cta carMpdel">
+                <a class="banner__btn-price" href="car-model.html" ">Марки авто и цены</a>
+                            </div>
+          </section>
+
+          <section class=" questions indent ">
+
+            <h2 class=" services__explanation-title">Часто задаваемые вопросы</h2>
+                    <div class="questions__content _container">
+
+                        <div class="questions__content-item">
+                            <div class="questions__content-info">
+                                <div class="questions__accordion-item">
+                                    <div class="questions__accordion-item--trigger">
+                                        <h6>Вы ремонтируете стойки на все модели Hyundai?</h6>
+                                        <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="questions__accordion-item--content">
+                                        <p class="content-text">
+                                            Мы восстанавливаем работоспособность газо-масляных двухтрубных амортизаторов
+                                            открытого типа на Hyundai вне зависимости от модели, года выпуска и пробега.
+                                            Главная рекомендация — это своевременное обращение в мастерскую при
+                                            обнаружении
+                                            первых симптомов неправильной работы задних или передних стоек и
+                                            амортизаторов.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="questions__accordion-item">
+                                    <div class="questions__accordion-item--trigger">
+                                        <h6>Даете ли вы гарантию на отремонтированные стойки на Hyundai?</h6>
+
+                                        <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="questions__accordion-item--content">
+                                        <p class="content-text">
+                                            Мы предоставляем гарантию на все восстановленные у нас
+                                            двухтрубные амортизаторы всех моделей и марок авто,
+                                            Hyundai включительно. Гарантия (20 тыс.км. пробега или 6
+                                            месяцев) распространяется на отремонтированные две стойки
+                                            на оси(передние, задние). Гарантийные обязательства на
+                                            ремонт одной стойки не распространяются,
+                                            в виду максимальной нагрузки на отремонтированную деталь
+                                            ходовой части. При отправке в другие регионы гарантия 6
+                                            месяцев.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="questions__accordion-item">
+                                    <div class="questions__accordion-item--trigger">
+                                        <h6>Какая средняя цена ремонта стоек на Hyundai и время?</h6>
+
+                                        <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="questions__accordion-item--content">
+                                        <p class="content-text">
+                                            Цена восстановления двухтрубного амортизатора каждой модели
+                                            Hyundai без регулировок 300-400 грн. Ремонт стойки с EDC и
+                                            FlexRaid 400-600 грн. Время потраченное на восстановление
+                                            двух передних или задних стоек максимум 2 часа
+                                            без снятия-установки на авто.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="questions__accordion-item">
+                                    <div class="questions__accordion-item--trigger">
+                                        <h6>Как у вас отреставрировать стойки на Hyundai, если я не из Киева?</h6>
+
+                                        <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="questions__accordion-item--content">
+                                        <p class="content-text">
+                                            Мы принимаем заказы на ремонт двухтрубных амортизаторов, не только на все
+                                            модели
+                                            Hyundai, но и на другие марки авто со всех городов Украины через службу
+                                            доставки
+                                            Новая Почта. Предварительно созвонившись Вы отправляете нам амортизаторы на
+                                            указанный пункт получения. Получивши амортизаторы, мы восстанавливаем
+                                            до идеального технического состояния и отправляем в этот же день Вам
+                                            обратно.
+                                            Оплатить услугу можно наложенным платежом после получения и проверки или
+                                            сразу
+                                            на карту.
+                                            Стоимость доставки не входят в цену ремонта и оплачивается отдельно.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="questions__content-item">
+                            <div class="questions__content-card">
+                                <div class="questions__form-top">
+                                    <div class="questions__form-title">Нет ответа на Ваш вопрос?</div>
+                                    <div class="questions__form-subtitle">Задайте вопрос и мы ответим?</div>
+                                </div>
+
+                                <form class="questions__form-card" method="post">
+                                    <div class="top-wrapper">
+                                        <div class="input">
+                                            <input type="text" id="name" placeholder="Имя" />
+                                        </div>
+                                        <div class="input">
+                                            <input type="tel" id="tel" placeholder="Номер телефона" />
+                                        </div>
+                                        <div class="input">
+                                            <input type="email" id="email" placeholder="E-mail" />
+                                        </div>
+                                    </div>
+                                    <div class="bottom-wrapper">
+
+                                        <div class="input">
+                                            <textarea id="message" placeholder="Напишите Ваш вопрос"></textarea>
+                                        </div>
+                                        <button class="submit__btn" id="submit__Btn">
+                                            Отправить вопрос
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+        </section>
+        <section class="feedback indent _container">
+            <div class="feedback__top">
+                <h2 class="feedback__title title">Что говорят о нас клиенты</h2>
+                <button class="feedback__cta" id="feedback__Btn">Оставить отзыв </button>
+            </div>
+            <div class="feedback__items">
+                <div class="feedback__item">
+                    <div class="feedback__name">Анастасия Лавренко</div>
+                    <div class="feedback__stars fa">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="feedback__text">"Обратила внимание, что со стороны передних колес
+                        стали исходить непонятные стуки на ямках.Ребята в серевисе
+                        все объяснили и сказали что желательно сделать амортизаторы
+                        и поменять стойки стабилизатора. Теперь моя Хундай Соната едет как новая.
+                        Спасибо большое."</div>
+
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback__name">Роман Артюшенко</div>
+                    <div class="feedback__stars fa">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="feedback__text">"Менял амортизаторы на Хюндай Акцент.
+                        До этого обслуживался в другом сервисе, но там они гнули цену,
+                        а качество работ оставляло желать лучшего. Тут парни молодцы.
+                        Знают свою работу отлично. Теперь только к вам! "</div>
+
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback__name">Иван Черных </div>
+                    <div class="feedback__stars fa">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="description">
+                        <p class="feedback__text">"Потекли передние стойки на Хендай Гетц.
+                            Друг порекомендовал обратиться в данный сервис. Решил сразу отремонтировать все 4.
+                            Качеством полностью доволен. Цены доступные, мастер знает свое дело. "
+
+                    </div>
+
+
+                </div>
+                <div class="feedback__item">
+                    <div class="feedback__name">Виктор Боголюбов</div>
+                    <div class="feedback__stars fa">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+
+                    <div class="description">
+                        <p class="feedback__text">"Столкнулся с проблемой неработающих передних
+                            амортизаторов на Huyndai Elantra. Сделали реставрацию. Результатом полностью доволен. "
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="feedback-link">
+                <a class="feedback__cta" id="feedbackAll__Btn" href="reviews.html">Все отзывы </a>
+              </div>
+
+        </section>
+
+
+
+
+        <section class=" footer">
+            <div class="footer__content _container">
+                <a class="header__logo footer__logo" href="index.html">
+                    <img src="images/logo-for-footer.png" alt="logo">
+                </a>
+                <div class="footer__columns">
+                    <div class="footer__column ">
+                        <h4 class="footer__title">Доверие</h4>
+                        <p class=" footer__text">Более 5 лет опыта в области
+                            качественного ремонта и восстановлении газомаслянных
+                            двухтрубных амортизаторов по современной технологии ремонта.</p>
+                    </div>
+                    <div class="footer__column footer__navigation">
+                        <h4 class="footer__title">Навигация</h4>
+                        <ul class="footer__navigation-items">
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="index.html">Автосервис</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="about.html">О нас</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="reviews.html">Отзывы</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="page__contacts.html">Контакты</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="services.html">Услуги</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="car-model.html">Марки авто</a>
+                            </li>
+                            <li class="footer__navigation-item">
+                              <a class="footer__navigation-link" href="page__posts.html">Статьи</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="footer__column footer__contacts">
+                        <h4 class="footer__title">Наши контакты</h4>
+                        <ul class="footer__contacts-items">
+                            <li class="footer__contacts-item">
+                                <a class="header__addres connection" href="#">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    г. Киев, <br>ул. Тепловозная 18 Г <br>(Дарницкий р-н.)</a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_phone-kiyvstar connection" href="tel:+380975051017">
+                                    <span>
+                                        <img src="images/icons/kyivstar_icon-25x25.png" alt="">
+                                    </span>
+                                    +38(097)-505-10-17</a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_phone-lifesell connection" href="tel:+380631064905">
+                                    <span>
+                                        <img src="images/icons/life_icon-25x25.png" alt="">
+                                    </span>
+                                    +38(063)-106-49-05
+                                </a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_phone-viber connection" href="viber://chat?number=%2B380975051017">
+                                    <span>
+                                        <img src="images/icons/viber-25x25.png" alt="">
+                                    </span>
+
+                                    viber
+                                </a>
+                            </li>
+                            <li class="footer__contacts-item">
+                                <a class="header_e-mail connection" href=" #" ">
+              <i class=" fa fa-envelope-open" aria-hidden="true"></i>info@sanauto.kiev.ua</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="footer__column ">
+                        <div class="footer__schedule">
+                            <h4 class="footer__title">Режим работы</h4>
+                            <ul class="days">
+                                <li class="days-name "><span>Пн — Пт:</span>09:00 — 19:00</li>
+                                <li class="days-name"><span>Суббота:</span>09:00 — 17:00</li>
+                                <li class="days-name"><span>Воскресенье:</span>Выходной</li>
+                            </ul>
+                        </div>
+                        <div class="footer__social">
+                            <h4 class="footer__social-title">Мы в соцсетях</h4>
+                            <ul class="header__info-social footer-social-items">
+                                <li class="sociall">
+                                    <a class="social__fb-icon" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="sociall">
+                                    <a class="social__instagram-icon" href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__bottom-text _container">
+                    © Автосервис "Sanavto Master" 2000 - 2022 все права защищены!
+                </p>
+
+            </div>
+
+        </section>
+
+        <div id="popup" class="popup">
+
+            <div class="popup__body">
+              <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">Оставить
+                  заявку</div>
+                <form class="questions__form-card" method="post">
+                  <div class="top-wrapper">
+                      <div class="input">
+                          <input type="text" id="name" placeholder="Имя" />
+                      </div>
+                      <div class="input">
+                          <input type="tel" id="tel" placeholder="Номер телефона" />
+                      </div>
+      
+                  </div>
+                  <div class="bottom-wrapper popup-btn">
+      
+      
+                      <button class="submit__btn" id="submit__Btn">
+                        Перезвоните мне
+                      </button>
+                  </div>
+              </form>
+              </div>
+            </div>
+      
+          </div>
+      
+
+
+        <div class="scroll-up" id="scrollToTop" onclick="goUp();">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/dynamic.adapt.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
