@@ -486,22 +486,20 @@ a.nav__it.underline-one {
    
 }
 .suggestions_item {
-    padding: 20px 20px;
-    border: 1px solid #f2f2f26b;
-    max-width: 360px;
-    box-shadow: 5px 0 20px -5px rgba(191, 191, 191, 0.273);
+    padding: 10px 30px;
+    /* width: 320px; */
     position: relative;
     border-radius: 5px;
     flex: 0 1 33.333%;
-
+     height: 100%;
 }
 .suggestions_item:hover a{
     color: #f35c27;
 }
 .suggestions__img {
-    max-width: 100%;
-    width: 320px;
-    height: 140px;
+    max-width: 360px;
+    width: 100%;
+    height: 180px;
     border-radius: 10px;
     font-size: 16px;
     object-fit: cover;
@@ -513,14 +511,14 @@ a.nav__it.underline-one {
     width: 100%;
     align-items: center;
     flex: 0 1 100%; 
-  
+    height: auto;
 }
 .suggestions__action {
     font-size: 12px;
-    line-height: 22px;
-    font-weight: 700;
+    line-height: 20px;
+    font-weight: 600;
     color: #000000;
-    margin-right: 20px;
+    height: auto;
 }
 .suggestions__info{
     display: flex;
@@ -541,14 +539,16 @@ a.nav__it.underline-one {
     border-bottom: 1px solid #f35c27;
 }
 .suggestions__price {
-    font-size: 12px;
-    font-weight: 700;
-    padding: 10px 15px;
-    color: #ffffff;
-    
+    width: 87px;
+    height: 38px;
+    line-height: 38px;
     background-color: #f35c27;
-    border-radius: 20px;
-    white-space: nowrap;
+    text-align: center;
+    border-radius: 19px;
+    flex: 1 0 123px;
+    margin-left: 15px;
+    color: #fff;
+    font-weight: bold;
 }
  /* about-------------- */
 
@@ -1202,6 +1202,7 @@ a#feedbackAll__Btn:hover{
     padding: 10px 10px 30px 10px; 
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 .blog__item--title{
     margin-bottom: 15px;
@@ -2990,8 +2991,16 @@ li.post__article_advantage--item{
        margin-left: 30px;
         margin-right: 30px;
     }
-  
-   
+    .suggestions__img {
+        max-width: 100%;
+        /* width: 320px; */
+        height: 180px;
+        border-radius: 10px;
+        font-size: 16px;
+        object-fit: cover;
+        
+    }
+
 }
 @media ( max-width: 1165px){
     
@@ -3037,6 +3046,7 @@ li.post__article_advantage--item{
         padding: 10px;
         border-radius: 50%;
     }
+
 }
 @media ( max-width: 1070px){
     .questions__content{
@@ -3048,7 +3058,10 @@ li.post__article_advantage--item{
         flex-shrink: 1;
       
     }
+ .suggestions_item {
    
+    padding: 10px 10px;
+}
 
 }
 @media ( max-width: 1000px){
@@ -3206,15 +3219,17 @@ flex: 0 0 45%;
 }
 @media ( max-width: 900px){
     .suggestions_items {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         flex-direction: column;
         align-items: center;
-       
+        margin-bottom: -20px;
     }
     .suggestions_item{
         flex: 0 1 100%;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+       
     }
+
     .indent{
         padding-top: 40px; 
     }
@@ -3287,6 +3302,12 @@ flex: 0 0 45%;
     .services__why-content:last-child {
         align-items: center;
     }
+    suggestions__img {
+        max-width: 0%;
+        width: 360px;
+        height: 180px;
+        
+    }
 }
 @media ( max-width: 850px){
     .promotion__item {
@@ -3298,6 +3319,11 @@ flex: 0 0 45%;
         max-width: 500px;
         margin: 0 auto;
         width: 100%;
+    }
+    .suggestions__action {
+        font-size: 11px;
+        line-height: 19px;
+       
     }
 }
 @media ( max-width: 785px){
@@ -3502,7 +3528,7 @@ flex: 0 0 45%;
     .post__article-slide img{
         width: 100%;
         transition: all 0.5s linear;
-       height: 200%;
+        height: 200%;
     }
 }
 @media (max-width: 570px){
@@ -3656,7 +3682,7 @@ flex: 0 0 45%;
         vertical-align: initial;
     }
     }
-    @media (max-width: 505px) {
+ @media (max-width: 505px) {
         .header__info-item {
             justify-content: flex-start;
             width: 165px;
@@ -3674,6 +3700,7 @@ flex: 0 0 45%;
             height: 60px;
              
          }
+         
     }
    @media (max-width: 502px){
     .header_phone-kiyvstar {
@@ -3753,18 +3780,13 @@ flex: 0 0 45%;
     .car__model-image55 {
         height: 205px;
     }
-    
-   .suggestions_item {
-        max-width: 310px;
+    .suggestions_item{
+       padding: 2px 2px;
+       
+    }
+  
    
-    }
-    .suggestions__action {
-       margin-bottom: 20px;
-       text-align: center;
-    }
-    .suggestions_item-bottom {
-        flex-direction: column;
-    }
+   
 }
 @media (max-width: 380px){
     li.auto__list-carModels--item {

@@ -34,7 +34,7 @@ time, mark, audio, video {
 body {
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
-    /* font-size: 20px; */
+    font-size: 1.2 rem;
     background-color: rgb(255, 255, 255);
     /* line-height: 28px;
     letter-spacing: 1.5px;
